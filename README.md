@@ -1,5 +1,5 @@
 # Notes
-Important notes for correctly programing a VEX cortex
+Important notes related to correctly programing a VEX cortex
 
 ## Printing and Terminal
 By: Fred Lu
