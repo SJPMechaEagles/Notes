@@ -27,6 +27,7 @@ By: Chris Jerrett
     int i = *(*(t));
     ```
 ## Run Time Issues
+By: Chris Jerrett
 ### Some tasks are running, others are not: 
   + A task is not waiting using delay() or taskDelayUntil(). Due to the fact that PROS utilizes a priority based non-preemptive scheduler, tasks of higher or equal priority to the blocking task will still run while lower priority tasks will not. This scenario is also known as starvation. See Tasks/Multithreading for more information.
 ### VEX LCD updates very slowly or is “frozen”: 
