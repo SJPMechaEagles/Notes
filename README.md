@@ -1,6 +1,11 @@
 # Notes
 Important notes related to correctly programing a VEX cortex using the [PROS](https://pros.cs.purdue.edu/) ecosystem.
 
+## Watchdog
+ By: Chris Jerrett
+  + The watchdog enables the system to better handle esd from the field. This is especially important with the IMEs.
+  + To enable call ``` void watchdogInit() ``` in ``` initializeIO() ```
+
 ## Printing and Terminal
 By: Fred Lu
   + Before uploading code to a cortex, close (control-c) the [pros terminal].
