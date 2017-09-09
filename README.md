@@ -48,3 +48,6 @@ By: Chris Jerrett
   + Turn the Cortex microcontroller off and on again. This usually resolves the problem, and it is generally good practice to re-initialize the robot to simulate conditions at most competitions. If the error persists, see the “Code restarts unexpectedly” section above.
 ### printf() doesn’t work: 
   + printf() prints information over a serial connection (see Debugging), not to the VEX LCD. To print to the LCD, use lcdPrint() instead.
+## Upgrading a project:
+  + Can be useful for bug fixes and new features.
+  + See [upgrading](https://pros.cs.purdue.edu/tutorials/upgrading/)
