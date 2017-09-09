@@ -1,5 +1,5 @@
 # Notes
-Important notes related to correctly programing a VEX cortex
+Important notes related to correctly programing a VEX cortex using the [PROS](https://pros.cs.purdue.edu/) ecosystem.
 
 ## Printing and Terminal
 By: Fred Lu
