@@ -59,3 +59,5 @@ By: Chris Jerrett
 ## Asserts
  + assert.h not working on arm embeded processors.
  + Cannot use assert
+## Overloading Function
+ + C does not support overloading functions.
