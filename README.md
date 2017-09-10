@@ -56,3 +56,6 @@ By: Chris Jerrett
 ## Upgrading a project:
   + Can be useful for bug fixes and new features.
   + See [upgrading](https://pros.cs.purdue.edu/tutorials/upgrading/)
+## Asserts
+ + assert.h not working on arm embeded processors.
+ + Cannot use assert
