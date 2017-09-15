@@ -14,13 +14,15 @@ By: Fred Lu
     messages through your currently open [pros terminal].
 ## Serial Communications Configurations
 By: Chris Jerrett
+Source: PROS Documentation
 + Use the following configurations with any serial communications software. Ex: Putty or coolterm:
 + Serial Port: May vary; unplugging and replugging the VEXnet device from the computer should allow you to determine the correct port.
 + Baud Rate: 115200
 + Encoding: 28591 - ISO-8859-1 - Western European (ISO) or equivalent
 ## Compile Time Issues
 By: Chris Jerrett
-### undefined reference to ... or implicit declaration of function ...: 
+Source: PROS Documentation
+### undefined reference to ... or implicit declaration of function ...:
   + A function name is spelled incorrectly, or the function was incorrectly declared in a header file. Custom headers must be included in main.h or in the file in which they are used.
 ### format ... expects argument of type ..., but argument has type ...: 
   + The value provided to a function like printf() or lcdPrint() does not match the expected type inferred from the format string. Some instances of this warning can be safely ignored, but crashes can occur if types double or long long are mixed with other types.
@@ -33,6 +35,7 @@ By: Chris Jerrett
     ```
 ## Run Time Issues
 By: Chris Jerrett
+Source: PROS Documentation
 ### Some tasks are running, others are not: 
   + A task is not waiting using delay() or taskDelayUntil(). Due to the fact that PROS utilizes a priority based non-preemptive scheduler, tasks of higher or equal priority to the blocking task will still run while lower priority tasks will not. This scenario is also known as starvation. See Tasks/Multithreading for more information.
 ### VEX LCD updates very slowly or is “frozen”: 
@@ -54,6 +57,7 @@ By: Chris Jerrett
 ### printf() doesn’t work: 
   + printf() prints information over a serial connection (see Debugging), not to the VEX LCD. To print to the LCD, use lcdPrint() instead.
 ## Upgrading a project:
+Source: PROS Documentation
   + Can be useful for bug fixes and new features.
   + See [upgrading](https://pros.cs.purdue.edu/tutorials/upgrading/)
 ## Asserts
